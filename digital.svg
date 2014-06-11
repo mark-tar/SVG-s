@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<?xml-stylesheet type="text/css" href="animation.css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve">
+
+	<rect class="stand" x="118.6" y="165.2" fill="#ACB5BE" width="10.3" height="22.6"/>
+	
+	<rect  class="bottom-part" x="107.9" y="185.9" fill="#C5D4D8" width="49.9" height="1" stroke="#C5D4D8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+	
+	<g class="frame-rotate"><rect class="frame" fill="#677889" stroke="#677889"  x="54.6" y="73.1"  stroke-width="10" stroke-linecap="round" stroke-linejoin="round"  width="156.8" height="99.9"/></g>
+<g class="frame-rotate">
+<rect class="screen" x="61.8" y="81.9" fill="#EF9CB0" width="142" height="82"/>
+
+	<g class="content">
+		<rect  x="61.8" y="81.9" fill="#CBEBE4" width="142" height="82"/>
+
+		<rect x="61.8" y="90.9" fill="#EF9CB0" width="142" height="23"/>
+
+		<rect x="61.8" y="81.9" fill="#ADDFD4" width="142" height="9"/>
+
+		<path fill="#677889" stroke="#677889" stroke-width="4" stroke-miterlimit="10" d="M208.8,76.9"/>
+	
+		<path fill="#69C5B1" d="M87.8,151.9h-16c-1.1,0-2-0.9-2-2v-16c0-1.1,0.9-2,2-2h16c1.1,0,2,0.9,2,2v16
+				C89.8,151,88.9,151.9,87.8,151.9z"/>
+		<g>
+			<g>
+				<rect x="94.8" y="131.9" fill="#ADDFD4" width="32" height="5"/>
+				<rect x="94.8" y="139.4" fill="#ADDFD4" width="32" height="5"/>
+				<rect x="94.8" y="146.9" fill="#ADDFD4" width="32" height="5"/>
+			</g>
+		</g>
+		<g>
+			<path fill="#69C5B1" d="M155.8,151.9h-16c-1.1,0-2-0.9-2-2v-16c0-1.1,0.9-2,2-2h16c1.1,0,2,0.9,2,2v16
+				C157.8,151,156.9,151.9,155.8,151.9z"/>
+		</g>
+		<g>
+			<g>
+				<rect x="162.8" y="131.9" fill="#ADDFD4" width="32" height="5"/>
+				<rect x="162.8" y="139.4" fill="#ADDFD4" width="32" height="5"/>
+				<rect x="162.8" y="146.9" fill="#ADDFD4" width="32" height="5"/>
+			</g>
+		</g>
+		<rect x="69.4" y="121.5" fill="#ADDFD4" width="125.6" height="5"/>
+	</g>
+</g>
+
+</svg>

@@ -1,0 +1,116 @@
+.frame, .stand, .bottom-part, .content  {-webkit-transform-origin:50% 50%;}
+ 
+
+ .frame {
+-webkit-animation:  scaleDevice 10s infinite ease-in-out;
+}
+
+
+@-webkit-keyframes scaleDevice {
+ 1%, 23% { -webkit-transform: scale(1,1)}
+ 25% ,76% { -webkit-transform: scale(0.65,0.65)}
+
+ 24%, 77%, 97%, 100%  { -webkit-transform: scale(0.4,0.3)}
+ 98% 	{-webkit-transform: scale(1.1,1.1)}
+100%,  0%{-webkit-transform: scale(0,0)}
+ }
+
+
+ .frame-rotate {
+ 	-webkit-animation:  rotateDevice 10s infinite ease-in-out;
+ 	-webkit-transform-origin:50% 50%;
+}
+
+@-webkit-keyframes rotateDevice {
+1% ,50% {  -webkit-transform: rotate(0deg)}
+52% { -webkit-transform: rotate(120deg)}
+ 53% ,98% { -webkit-transform: rotate(90deg)}
+100% {}
+ 
+ 
+ }
+
+ .stand {
+ 	display:none;
+ }
+
+
+ .bottom-part {
+ 	display:none;
+-webkit-animation: standScale 2s infinite ease-in-out; 
+}
+
+
+@-webkit-keyframes standScale { 
+  from  { -webkit-transform: scale(1,1)}
+  to  { -webkit-transform: scale(0,0)}
+
+} 
+
+.loadingContent {
+	-webkit-animation: loadingContent 0.5s infinite ease-in-out;
+	-webkit-transform-origin:50% 50%;
+
+}
+
+@-webkit-keyframes loadingContent { 
+  0%  { -webkit-transform: scale(1,0)}
+  20%  { -webkit-transform: scale(1,1)}
+
+}
+
+.content {
+	display:none;
+}
+
+ .screen { 
+
+-webkit-animation: scaleScreen 10s infinite ease-in-out; 
+-webkit-transform-origin:50% 50%; }
+
+@-webkit-keyframes scaleScreen {
+ 1%, 23% { -webkit-transform: scale(1.1,1.2)}
+ 25% ,76% { -webkit-transform: scale(0.65,0.75)}
+
+ 24%, 77%, 97%, 100%  { -webkit-transform: scale(0.33,0.35)}
+ 98% 	{-webkit-transform: scale(1,1)}
+100%, 0% {-webkit-transform: scale(0,0)}
+ }
+
+
+
+
+ .test {
+
+-webkit-animation: rotate- 10s infinite ease-in-out;
+-webkit-transform-origin:50% 50%;}
+
+@-webkit-keyframes rotateD {
+0%  {  -webkit-transform: rotate(0deg)}
+50 { -webkit-transform: rotate(180deg)}
+100% { -webkit-transform: rotate(360deg)}
+}
+
+
+
+
+
+/* Strategy */
+
+.diagram {
+	display:none;
+}
+
+.greycircle{
+-webkit-animation: greyOne 3s infinite ease-in-out;
+-webkit-transform-origin:50% 50%;}
+
+@-webkit-keygrames greyOne {
+0% {-webkit-transform:scale(0,0)}
+100% {-webkit-transform:scale(20,0)}
+} 
+ 
+ .greens line, .bieges line {
+ 	opacity:0.5;
+ }
+
